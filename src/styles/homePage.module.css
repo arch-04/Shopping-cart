@@ -1,0 +1,83 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+}
+
+.homeHeader{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeHeader h1{
+    margin: 0px;
+    padding: 25px;
+    color: white;
+    font-size: 2.2em;
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+    font-size: 1.7em;
+    align-items: center;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.links span{
+    color: white;
+    font-size: 1.4em;
+    align-self: center;
+}
+
+.homeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.homeContent h1{
+    font-family: sans-serif;
+    font-size: 3.2em;
+}
+
+.homeContent p{
+    font-family: sans-serif;
+    font-size: 1.6em;
+}
+
+.homeContent button{
+    width: 110px;
+    height: 45px;
+    font-size: 1.2em;
+}
+
+.homeBtn button{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.homeBtn button:hover{
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid black;
+    color: black;
+}

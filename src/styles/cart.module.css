@@ -1,0 +1,49 @@
+.cartContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.cartContainer h1{
+    color: gray;
+    font-size: 3em;
+}
+
+.cartContainer {
+    padding: 20px;
+    
+}
+
+.cartItemsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartItemsContainer h1{
+    color: black;
+}
+
+.cartItems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartItem {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 600px;
+}
+
+.spanContainer{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.spanContainer span{
+    font-size: 1.8em;
+}
